@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="desutil:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/desutil_jar</output-path>
+    <root id="archive" name="desutil.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="desutil" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
